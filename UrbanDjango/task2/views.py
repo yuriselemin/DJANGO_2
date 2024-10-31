@@ -1,7 +1,6 @@
 from django.shortcuts import render
 
-def render_class(request):
-    return render(request, 'class_template.html')
 
-def render_func(request):
-    return render(request, 'func_template.html')
+
+def func_render(request):
+    return render(request, 'second_task/func_template.html')
